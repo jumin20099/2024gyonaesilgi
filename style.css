@@ -34,10 +34,9 @@ header{
 }
 
 #modal-searchbar{
-    background-color: #F5F5F5;
     border-radius: 50px 50px;
     border: none;
-    width: 320px;
+    margin-left: 30px;
     padding: 8px 10px 8px 10px;
 }
 
@@ -45,4 +44,107 @@ header{
     font-size: 25px;
     float: right;
     margin-right: 5px;
+}
+
+#modal-searchbar-input{
+    width: 600px;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#modal-searchbar-input:focus{
+    outline: 2px dashed rgb(0, 110, 255);
+}
+
+.modal-header{
+    justify-content: center;
+}
+
+.closeBtn{
+    border: none;
+    font-size: 27px;
+    margin-left: 30px;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+#modal-product-top{
+    display: flex;
+    justify-content: center;
+}
+
+#modal-product-top button{
+    border-radius: 50%;
+    border: solid 1px rgb(158, 158, 158);
+    color: rgb(158, 158, 158);
+    width: 18px;
+    height: 18px;
+    font-size: 11px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+#modal-product-top p{
+    font-weight: 900;
+}
+
+#modal-product-wrap{
+    overflow: hidden;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    align-items: center;
+    margin-left: 700px;
+}
+
+#modal-product{
+    display: flex;
+    width: 450px;
+    transition: all 0.5s ease;
+}
+
+.modal-products{
+    display: flex !important;
+}
+
+.modal-products img{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.products-info{
+
+}
+
+.products-info h6{
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.products-info h5{
+    color: rgb(158, 158, 158);
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.products-info p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.products-info span{
+    font-size: 9px;
+    font-weight: bold;
+}
+
+#modal-ranking-top{
+
 }

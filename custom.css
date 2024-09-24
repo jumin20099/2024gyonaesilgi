@@ -1,2 +1,5 @@
 .modal-footer { background-color : rgba(0,0,0,0.2); }
 .modal { max-height: 810px; border-radius: 0px 0px 20px 20px; }
+.btn-close{
+    margin: 0px;
+}

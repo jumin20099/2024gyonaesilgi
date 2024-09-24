@@ -19,12 +19,119 @@
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
                 <div class="modal-header">
+                    <input id="modal-searchbar-input" type="text">
                     <button id="modal-searchbar">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="closeBtn" data-bs-dismiss="modal" aria-label="Close"><i
+                                class="fa-solid fa-x"></i></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div id="modal-product-top">
+                        <p>추천 제품</p>
+                        <button type="button" data-bs-container="body" data-bs-toggle="popover"
+                            data-bs-placement="bottom" data-bs-content="고객님의 최근 본 제품과 연관된 제품을 추천해 드려요!">!</button>
+                    </div>
+                    <button class="prev-button">이전</button>
+                    <div id="modal-product-wrap">
+                        <div id="modal-product">
+                            <div class="modal-products">
+                                <img src="./images/product1.webp" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>갤럭시 버즈3 프로</h6>
+                                    <h5>SM-R630NZAAKOO</h5>
+                                    <p><span>혜택가</span> 296,600원</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-products">
+                                <img src="./images/product2.webp" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>BESPOKE 냉장고 2도어<br>키친핏 333L</h6>
+                                    <h5>RB33A3661AP</h5>
+                                    <p><span>혜택가</span> 799,000원</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-products">
+                                <img src="./images/product3.webp" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>갤럭시 버즈3</h6>
+                                    <h5>SM-R530NZAAKOO</h5>
+                                    <p><span>혜택가</span> 203,600원</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-products">
+                                <img src="./images/product4.webp" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>갤럭시 탭 S9 FE+ Ultra (Wi-Fi)</h6>
+                                    <h5>SM-X610NZAAKOO</h5>
+                                    <p><span>혜택가</span> 705,600원</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-products">
+                                <img src="./images/product5.avif" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>갤럭시 탭 S9 Ultra (Wi-Fi)</h6>
+                                    <h5>SM-X910NZAAKOO</h5>
+                                    <p><span>혜택가</span> 1,443,500원</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-products">
+                                <img src="./images/product6.webp" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>갤럭시 버즈 FE</h6>
+                                    <h5>SM-R400NZWAKOO</h5>
+                                    <p><span>혜택가</span> 99,000원</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-products">
+                                <img src="./images/product5.avif" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>갤럭시 탭 S9 (Wi-Fi)</h6>
+                                    <h5>SM-X710NZAAKOO</h5>
+                                    <p><span>혜택가</span> 931,100원</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-products">
+                                <img src="./images/product5.avif" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>갤럭시 탭 S9+ (Wi-Fi)</h6>
+                                    <h5>SM-X810NZAAKOO</h5>
+                                    <p><span>혜택가</span> 1,139,600원</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-products">
+                                <img src="./images/product7.webp" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>갤럭시 A35 5G 자급제</h6>
+                                    <h5>SM-A356NZKWKOO</h5>
+                                    <p><span>혜택가</span> 469,900원</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-products">
+                                <img src="./images/product8.webp" class="product-img" alt="">
+                                <div class="products-info">
+                                    <h6>BESPOKE AI 스팀</h6>
+                                    <h5>VR7MD97716G</h5>
+                                    <p><span>혜택가</span> 1,790,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="next-button">다음</button>
+                    <div id="modal-ranking-top">
+                        <h6>인기 검색어 <span>2024-09-24 14:58:39 기준</span></h6>
+                    </div>
+                    <div id="modal-ranking">
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,6 +149,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
