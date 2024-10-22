@@ -18,6 +18,10 @@ header{
     cursor: pointer;
 }
 
+#header-bottom{
+    display: flex;
+}
+
 #searchbar{
     background-color: #F5F5F5;
     border-radius: 50px 50px;
@@ -149,5 +153,20 @@ header{
 }
 
 #modal-ranking-top{
+    margin-right: 430px;
+}
 
+.rank-div{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.ranks{
+    width: 350px;
+    display: block;
+    text-align: left;
+    font-size: 13.5px;
+    height: 25px;
+    cursor: pointer;
 }
